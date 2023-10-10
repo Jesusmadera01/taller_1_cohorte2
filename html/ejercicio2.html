@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Registro de Estudiantes</title>
+    <script src="../js/funciones2.js"></script>
+    <style>
+        div{
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body >
+ <div>
+    <h1>Sistema de Registro de Estudiantes</h1>
+
+   
+    <h2>Agregar Estudiante</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required> <br>
+    <br>
+    <label for="edad" style="padding: 10px;">Edad:</label> 
+    <input type="number" id="edad" required> <br>
+    <br>
+    <label for="identificacion" style="padding: 17px;">ID:</label>
+    <input type="number" id="identificacion" required>
+    <br> <br>
+    <button onclick="agregarEstudiante()">Agregar Estudiante</button> <br><br>
+
+ 
+    <h3>Buscar Estudiante</h3>
+    <label for="buscarIdentificacion">Id a buscar:</label>
+    <input type="text" id="buscarIdentificacion">
+    <br> <br>
+    <button onclick="buscarEstudiante()">Buscar Estudiante</button>
+
+    <div id="resultado"></div>
+    </div>
+</body>
+</html>
+
+
+
+
+    
+
+
